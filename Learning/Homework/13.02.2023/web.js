@@ -66,6 +66,7 @@ if(m == o){
 }
 */
 
+/*
 //Task 3
 let a = 102; 
 let b = 10;
@@ -80,4 +81,17 @@ if(a >= b) {
     console.log(`Cel mai mare numar este ${b}`)
 } else {
     console.log(`Cel mai mare numar este ${c}`)
+}
+*/
+
+//Task 6
+let n = prompt("Introduceti un numar", 0);
+if(n > 0) {
+    alert(1);
+} else if (n < 0) {
+    alert(-1);
+} else if(n == 0) {
+    alert(0);
+} else {
+    alert("Eroare");
 }
