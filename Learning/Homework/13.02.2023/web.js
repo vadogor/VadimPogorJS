@@ -1,7 +1,8 @@
 //Practical tasks for JavaScript fundamentals
 
+/*
 //Task 1
-/*let n = prompt("Introduceti o cifra", 9);
+let n = prompt("Introduceti o cifra", 9);
 switch(Number(n)) {
     case 1: console.log("One"); 
     break;
@@ -26,8 +27,10 @@ switch(Number(n)) {
 
     default: console.log('Cred ca nu ati introdus o cifra')
     break;
-}*/
+}
+*/
 
+/*
 //Task 2
 alert('In continuare urmeaza sa introduceti un interval [a, b], cu a, b - numere pozitive');
 let x = null;
@@ -61,4 +64,20 @@ if(m == o){
     }
     console.log(`Suma numerelor pare din intervalul [${x},${y}] este: ${s}`);
 }
+*/
 
+//Task 3
+let a = 102; 
+let b = 10;
+let c = -16;
+if(a >= b) {
+    if(a > c){
+        console.log(`Cel mai mare numar este ${a}`)
+    } else {
+        console.log(`Cel mai mare numar este ${c}`)
+    }
+} else if(b > c) {
+    console.log(`Cel mai mare numar este ${b}`)
+} else {
+    console.log(`Cel mai mare numar este ${c}`)
+}
