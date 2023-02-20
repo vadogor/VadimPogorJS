@@ -130,8 +130,8 @@ if (age < 14 || age > 90) {
 } else {
     console.log(`Ai ${age} ani, hai la lucru.`)
 }
-*/
 
+/*
 //Task 8
 let username = prompt('Adaugati username:');
 let password = prompt('Adaugati parola:');
@@ -145,9 +145,24 @@ if (!username || !password) {
 } else {
   alert('Неправильный username');
 }
+*/
 
 //Task 9
+let client = prompt("Как вас зовут?", "");
 
+if (client) {
+  alert(`Привет, ${client}!`);
+
+  let isFamiliar = confirm("Вы знакомы с языком JavaScript?");
+
+  if (isFamiliar) {
+    alert("Молодец!");
+  } else {
+    alert("Можно начать изучение прямо сейчас");
+  }
+} else {
+    alert("Вы не ввели имя");
+}
 
 /*
 //Task 10
