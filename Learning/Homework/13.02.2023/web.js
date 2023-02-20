@@ -92,8 +92,8 @@ function ucFirst(str) {
 }
 let n = ucFirst('vadim');
 console.log(n);
-*/
 
+/*
 //Task 5
 function extractCurrencyValue(str) {
     return str.slice(1);
@@ -116,3 +116,16 @@ if(n > 0) {
 */
 
 //Task 7
+age = 19;
+if (!(age >= 14 && age <= 90)) {
+    console.log(age);
+} else {
+    console.log(`Ai ${age} ani, hai la lucru.`)
+}
+
+age = 10;
+if (age < 14 || age > 90) {
+    console.log(age);
+} else {
+    console.log(`Ai ${age} ani, hai la lucru.`)
+}
