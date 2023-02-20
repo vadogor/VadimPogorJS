@@ -115,6 +115,7 @@ if(n > 0) {
 }
 */
 
+/*
 //Task 7
 age = 19;
 if (!(age >= 14 && age <= 90)) {
@@ -129,3 +130,15 @@ if (age < 14 || age > 90) {
 } else {
     console.log(`Ai ${age} ani, hai la lucru.`)
 }
+*/
+
+//Task 10
+const dividers = (number) => {
+  console.log(`Divizorii numarului ${number} sunt: `)
+    for (let i = 1; i <= number / 2; i++) {
+      if (number % i === 0) {
+        console.log(`${i}`);
+      }
+    }
+}
+dividers(36);
