@@ -28,7 +28,7 @@ switch(Number(n)) {
     default: console.log('Cred ca nu ati introdus o cifra')
     break;
 }
-*/
+
 
 /*
 //Task 2
@@ -64,7 +64,7 @@ if(m == o){
     }
     console.log(`Suma numerelor pare din intervalul [${x},${y}] este: ${s}`);
 }
-*/
+
 
 /*
 //Task 3
@@ -82,8 +82,9 @@ if(a >= b) {
 } else {
     console.log(`Cel mai mare numar este ${c}`)
 }
-*/
 
+
+/*
 //Task 4
 function ucFirst(str) {
     if (!str) return str;
@@ -91,6 +92,14 @@ function ucFirst(str) {
 }
 let n = ucFirst('vadim');
 console.log(n);
+*/
+
+//Task 5
+function extractCurrencyValue(str) {
+    return str.slice(1);
+}
+console.log(Number(extractCurrencyValue('$120')) === 120);
+
 
 /*
 //Task 6
