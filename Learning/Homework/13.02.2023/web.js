@@ -132,6 +132,24 @@ if (age < 14 || age > 90) {
 }
 */
 
+//Task 8
+let username = prompt('Adaugati username:');
+let password = prompt('Adaugati parola:');
+
+if (!username || !password) {
+  alert('Nu ati introdus toate datele');
+} else if (username === 'admin' && password === '123') {
+  alert('Привет!');
+} else if (username === 'admin') {
+  alert('Неправильный пароль');
+} else {
+  alert('Неправильный username');
+}
+
+//Task 9
+
+
+/*
 //Task 10
 const dividers = (number) => {
   console.log(`Divizorii numarului ${number} sunt: `)
@@ -142,3 +160,4 @@ const dividers = (number) => {
     }
 }
 dividers(36);
+*/
