@@ -84,6 +84,15 @@ if(a >= b) {
 }
 */
 
+//Task 4
+function ucFirst(str) {
+    if (!str) return str;
+    return str[0].toUpperCase() + str.slice(1);
+}
+let n = ucFirst('vadim');
+console.log(n);
+
+/*
 //Task 6
 let n = prompt("Introduceti un numar", 0);
 if(n > 0) {
@@ -95,3 +104,6 @@ if(n > 0) {
 } else {
     alert("Eroare");
 }
+*/
+
+//Task 7
