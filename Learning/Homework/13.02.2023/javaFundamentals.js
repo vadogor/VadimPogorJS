@@ -145,8 +145,9 @@ if (!username || !password) {
 } else {
   alert('Неправильный username');
 }
-*/
 
+
+/*
 //Task 9
 let client = prompt("Как вас зовут?", "");
 
